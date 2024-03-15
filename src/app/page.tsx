@@ -18,7 +18,7 @@ export default function Home() {
 	return (
 		<main className='container mx-auto p-10 md:p-24 flex min-h-screen'>
 			<div
-				className='p-2 rounded-3xl cursor-pointer fixed bottom-[15px] left-[15px] hover:animate-pulse bg-[#4ade80]'
+				className='p-2 rounded-3xl cursor-pointer fixed bottom-[15px] left-[15px] hover:animate-pulse bg-green-400'
 				onClick={() => setIsPlaying( !isPlaying )}>
 				{isPlaying ?
 					<svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' strokeWidth={1.5} stroke='currentColor' className='w-6 h-6'>
