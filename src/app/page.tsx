@@ -7,13 +7,13 @@ export default function Home() {
 	const [ play, { stop, pause } ] = useSound( '/sounds/milkshake.mp3' );
 	const [ isPlaying, setIsPlaying ] = useState( true );
 	
-	// useEffect( () => {
-	// 	if ( isPlaying ) {
-	// 		play();
-	// 	} else {
-	// 		pause();
-	// 	}
-	// }, [ isPlaying, play ] );
+	useEffect( () => {
+		if ( isPlaying ) {
+			play();
+		} else {
+			pause();
+		}
+	}, [ isPlaying, play ] );
 	
 	return (
 		<main className='container mx-auto p-10 md:p-24 flex min-h-screen'>
