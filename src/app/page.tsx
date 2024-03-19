@@ -68,7 +68,9 @@ export default function Home() {
 				<p className='text-[27px] text-green-400 font-pixel'>
 					Line-up: TBA
 				</p>
-				<button className='mt-[80px] bg-white hover:bg-black hover:text-white text-black font-bold py-2 px-4 rounded'>
+				<button
+					className='mt-[80px] bg-white hover:bg-black hover:text-white text-black font-bold py-2 px-4 rounded'
+					onClick={() => window.open( 'https://fi7padbwqgf.typeform.com/to/pxb2aGVU', '_blank' )}>
 					Request for an invitation
 				</button>
 				<p className='mt-[300px] text-[22px] lg:px-20 text-zinc-400'>
